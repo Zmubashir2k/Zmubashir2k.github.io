@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,9 +30,12 @@ nav ul li a {
     font-weight: bold;
 }
 
-#hero {
+.section {
+    padding: 100px 0;
     text-align: center;
-    padding: 100px 20px;
+}
+
+#hero {
     background: linear-gradient(to right, #0b3d0b, #121212);
 }
 
@@ -40,12 +43,7 @@ nav ul li a {
     font-size: 3em;
 }
 
-section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-section h2 {
+.section h2 {
     margin-bottom: 20px;
     color: #00ff00;
 }
@@ -55,15 +53,6 @@ section h2 {
     height: 150px;
     border-radius: 50%;
     margin-top: 20px;
-}
-
-.project {
-    margin: 20px 0;
-}
-
-.project a {
-    color: #00ff00;
-    text-decoration: none;
 }
 
 footer {
@@ -86,4 +75,26 @@ footer {
 
 .btn:hover {
     background-color: #0b3d0b;
+}
+
+.contact-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact-title i {
+    margin-right: 10px;
+}
+
+address p {
+    margin: 0 0 10px;
+    font-size: 1.1em;
+}
+
+address p i {
+    margin-right: 10px;
+}
+
+footer p {
+    margin: 0;
 }
