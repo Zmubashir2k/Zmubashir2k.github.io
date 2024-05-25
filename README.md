@@ -31,4 +31,4 @@ Feel free to reach out to me via email or connect with me on LinkedIn using the 
 - CSS
 - JavaScript
 
-2024 Zain A. Mubashir. All rights reserved.
+&copy; 2024 Zain A. Mubashir. All rights reserved.
