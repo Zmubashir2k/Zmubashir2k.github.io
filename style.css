@@ -41,7 +41,7 @@ small { font-size: 0.750rem; /* 12px */ }
     background-image: url('images/background1.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.2;
+    opacity: 0.5;
     z-index: -1;
 }
 
