@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zain Mubashir's Portfolio</title>
+    <title>Zain A. Mubashir's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Enriqueta:700|Enriqueta:400" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
             <nav>
                 <ul>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#resume">Resume</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+                <button id="theme-toggle">Toggle Theme</button>
             </nav>
         </div>
     </header>
-    <section id="hero">
+    <section id="home" class="hero">
         <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm Zain Mubashir, da man.</p>
+            <h1>Zain A. Mubashir</h1>
+            <p>Passionate Software Developer</p>
         </div>
     </section>
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I am a recent graduate from DePaul University with a degree in Computer Science, concentration in Software Engineering. I'm skilled in Java, Python, C/C++, C#, JavaScript, and various web technologies. I have experience in web development, software architecture, and cloud computing.</p>
+            <p>Recent graduate from DePaul University with a degree in Computer Science, concentrating in Software Engineering. Skilled in various programming languages and technologies, and passionate about web development and software engineering.</p>
             <img src="images/profile.png" alt="Profile Picture">
         </div>
     </section>
@@ -37,22 +38,28 @@
         <div class="container">
             <h2>Projects</h2>
             <div class="project-list">
-                <!-- Add project details here -->
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>Brief description of project one.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>Brief description of project two.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Three</h3>
+                    <p>Brief description of project three.</p>
+                    <a href="#">View Project</a>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <p>For a detailed view of my experience and skills, please view my resume.</p>
-            <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
         </div>
     </section>
     <section id="contact">
         <div class="container">
             <h2>Contact</h2>
-            <p>You can reach me at <a href="mailto:Zmubashir2k@gmail.com">Zmubashir2k@gmail.com</a></p>
-            <p>Follow me on <a href="https://www.linkedin.com/in/zainmubashir/" target="_blank">LinkedIn</a></p>
+            <p>Feel free to reach out to me at <a href="mailto:Zmubashir2k@gmail.com">Zmubashir2k@gmail.com</a> or follow me on <a href="https://www.linkedin.com/in/zainmubashir/" target="_blank">LinkedIn</a>.</p>
         </div>
     </section>
     <footer>
@@ -63,3 +70,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
