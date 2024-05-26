@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Enriqueta:700|Enriqueta:400');
 
 :root {
-    --text: #e2eeec;
-    --background: #080d0c;
-    --primary: #abcfca;
-    --secondary: #423f6e;
-    --accent: #8d71ad;
+    --text: #e8fbe8;
+    --background: #020c03;
+    --primary: #8fea94;
+    --secondary: #461a8d;
+    --accent: #5444dc;
 }
 
 body {
@@ -41,7 +41,7 @@ small { font-size: 0.750rem; /* 12px */ }
     background-image: url('images/background1.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.5;
+    opacity: 0.3;
     z-index: -1;
 }
 
@@ -87,6 +87,23 @@ section {
     background: rgba(0, 0, 0, 0.5);
 }
 
+#about {
+    background-color: var(--secondary);
+}
+
+#projects {
+    background-color: var(--accent);
+}
+
+#resume {
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+#contact {
+    background-color: var(--background);
+}
+
 #about img {
     width: 150px;
     height: 150px;
@@ -101,7 +118,7 @@ section {
 }
 
 .project {
-    background: var(--secondary);
+    background: var(--background);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -132,7 +149,7 @@ footer {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
-    color: var(--text);
+    color: var(--background);
     background-color: var(--accent);
     text-decoration: none;
     border-radius: 5px;
@@ -143,4 +160,5 @@ footer {
 .btn:hover {
     background-color: var(--secondary);
 }
+
 
