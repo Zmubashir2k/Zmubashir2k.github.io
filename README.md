@@ -1,37 +1,25 @@
-# Zain Mubashir - Software Engineer Portfolio[cite: 5]
+# > ZAIN MUBASHIR // SOFTWARE ENGINEER PORTFOLIO[cite: 5]
 
-Welcome to the source repository for my personal portfolio. This space is designed to showcase my technical skills, professional full-stack development experience, and academic background as I seek new software engineering opportunities in the Chicago area in 2026.
+Welcome to the source repository for my personal portfolio. This space documents my engineering capabilities, full-stack projects, and professional background.
 
-## Table of Contents
+## SYSTEM REQUIREMENTS & TECH STACK
 
-- [About](#about)
-- [Projects](#projects)
-- [Experience](#experience)
-- [Contact](#contact)
+- HTML5
+- CSS3 (Custom Variables, CSS Grid, Flexbox)
+- Vanilla JavaScript
 
-## About
+## DIRECTORY STRUCTURE
 
-I am a Software Engineer based in Bartlett, IL[cite: 5]. I hold a B.S. in Software Engineering from DePaul University (2023)[cite: 5] and possess additional certifications in Machine Learning (2025) and Microsoft Azure (2024)[cite: 5].
+* `index.html`: The core application file containing my professional experience, including my work on the uShoot App and Media Monkey Marketing[cite: 5].
+* `style.css`: Contains the Acid Graphics / Cybercore styling architecture.
+* `script.js`: Handles DOM interactions and console initialization.
+* `resume.pdf`: Downloadable copy of my current 2026 Software Engineer resume.
 
-## Projects
+## EXECUTE
 
-Highlights of my end-to-end development work, including:
-*   **uShoot:** A production-ready mobile application deployed on iOS and Android[cite: 5].
-*   **TipBoosters:** A commercial-grade Java web application featuring a robust backend[cite: 5].
+To view the portfolio locally, clone this repository and open `index.html` in any modern web browser. No local server environment is strictly required.
 
-## Experience
-
-Detailed logs of my professional trajectory, including my current role driving development at Media Monkey Marketing & Consulting[cite: 5], and my past faculty web development work at DePaul University[cite: 5].
-
-## Contact
-
-Feel free to ping me via email at Zmubashir2k@gmail.com[cite: 5] or execute a connection request on [LinkedIn](https://www.linkedin.com/in/zainmubashir/)[cite: 5].
-
-## Technical Stack
-
-- **Languages:** Java, Python, C/C++, C#, JavaScript, PHP, SQL, HTML/CSS[cite: 5]
-- **Frameworks & Tools:** Bootstrap, Cordova, Android Studio, XCode[cite: 5]
-- **Cloud & Infrastructure:** Google Cloud Platform, Microsoft Azure[cite: 5]
+> "Owning projects end-to-end in fast-paced environments."[cite: 5]
 
 ---
 &copy; 2026 Zain Mubashir. All rights reserved.
