@@ -3,55 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zain A. Mubashir's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Enriqueta:700|Enriqueta:400&display=swap" rel="stylesheet">
+    <title>Zain Mubashir | Software Engineer[cite: 5]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="overlay"></div>
+    <div class="crt-overlay"></div>
     <header>
         <nav>
             <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#hero" data-text="HOME">HOME</a></li>
+                <li><a href="#about" data-text="SYS_INFO">SYS_INFO</a></li>
+                <li><a href="#projects" data-text="EXEC_FILES">EXEC_FILES</a></li>
+                <li><a href="#experience" data-text="LOGS">LOGS</a></li>
+                <li><a href="#contact" data-text="PING_ME">PING_ME</a></li>
             </ul>
         </nav>
     </header>
+
     <section id="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm Zain Mubashir, a passionate software developer ready to start my career in software engineering or web development.</p>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a recent graduate from DePaul University with a degree in Computer Science, concentration in Software Engineering. I'm skilled in Java, Python, C/C++, C#, JavaScript, and various web technologies. I have experience in web development, software architecture, and cloud computing.</p>
-        <img src="images/profile.png" alt="Profile Picture">
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-list">
-            <!-- Add project details here -->
+        <div class="glitch-container">
+            <h1 class="glitch" data-text="ZAIN MUBASHIR">ZAIN MUBASHIR[cite: 5]</h1>
+        </div>
+        <h3 class="cyber-subtitle">SOFTWARE ENGINEER // FULL-STACK DEVELOPER[cite: 5]</h3>
+        <div class="terminal-box">
+            <p id="typewriter"></p><span class="cursor">_</span>
         </div>
     </section>
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>For a detailed view of my experience and skills, please view my resume.</p>
-        <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
+
+    <div class="marquee">
+        <span>JAVA // PYTHON // C++ // JAVASCRIPT // PHP // SQL // GCP // AZURE // CORDOVA[cite: 5]</span>
+    </div>
+
+    <section id="about">
+        <h2 class="section-title">SYS_INFO: ABOUT_ME</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I am a Software Engineer based in Bartlett, IL, specializing in building and deploying full-stack applications[cite: 5]. I thrive in fast-paced environments, owning projects end-to-end with a strong foundation in data structures and algorithms[cite: 5].</p>
+                <ul class="cert-list">
+                    <li><strong>DEGREE:</strong> B.S. Software Engineering, DePaul University (Cum Laude, 2023)[cite: 5]</li>
+                    <li><strong>CERT:</strong> Intro to Machine Learning, Elgin Community College (2025)[cite: 5]</li>
+                    <li><strong>CERT:</strong> AZ-900: Azure Fundamentals, Microsoft (2024)[cite: 5]</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="images/profile.png" alt="Zain Mubashir Profile">
+                <div class="image-glitch-effect"></div>
+            </div>
+        </div>
     </section>
+
+    <section id="projects">
+        <h2 class="section-title">EXEC_FILES: PROJECTS</h2>
+        <div class="project-list">
+            <div class="project cyber-card">
+                <h3>uShoot App[cite: 5]</h3>
+                <p class="tech-stack">Cordova | JavaScript | PHP[cite: 5]</p>
+                <p>Led full-stack development of a production-ready mobile app for iOS and Android[cite: 5]. Engineered batch processing scripts for daily data operations and managed the complete lifecycle from Adobe XD wireframing to feature delivery[cite: 5].</p>
+            </div>
+            <div class="project cyber-card">
+                <h3>TipBoosters[cite: 5]</h3>
+                <p class="tech-stack">Java | HTML | CSS[cite: 5]</p>
+                <p>Developed a commercial-grade Java web application for a reviewing service, designing responsive front-end components and integrating robust backend architecture for user authentication[cite: 5].</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="section-title">LOGS: EXPERIENCE</h2>
+        <div class="experience-timeline">
+            <div class="timeline-item">
+                <h4>Developer @ Media Monkey Marketing & Consulting[cite: 5]</h4>
+                <small>Jul 2024 - Present | Itasca, IL[cite: 5]</small>
+                <p>Owning end-to-end development of client/internal projects[cite: 5]. Engineering high-intensity code and batch scripts for daily processing tasks[cite: 5].</p>
+            </div>
+            <div class="timeline-item">
+                <h4>Developer @ DePaul University[cite: 5]</h4>
+                <small>Jun 2023 - Jan 2024 | Chicago, IL[cite: 5]</small>
+                <p>Hired post-graduation to design, develop, and publish critical faculty website components using HTML/CSS, PHP, and Bootstrap[cite: 5].</p>
+            </div>
+        </div>
+        <a href="resume.pdf" target="_blank" class="btn cyber-btn">DOWNLOAD_RESUME.EXE</a>
+    </section>
+
     <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at <a href="mailto:Zmubashir2k@gmail.com">Zmubashir2k@gmail.com</a></p>
-        <p>Follow me on <a href="https://www.linkedin.com/in/zainmubashir/" target="_blank">LinkedIn</a></p>
+        <h2 class="section-title">PING_ME: CONTACT</h2>
+        <div class="contact-box">
+            <p>Ready to deploy? Let's connect.</p>
+            <p><strong>EMAIL:</strong> <a href="mailto:Zmubashir2k@gmail.com">Zmubashir2k@gmail.com</a>[cite: 5]</p>
+            <p><strong>PHONE:</strong> 630-398-9658[cite: 5]</p>
+            <p><strong>LINK:</strong> <a href="https://www.linkedin.com/in/zainmubashir/" target="_blank">linkedin.com/in/zainmubashir</a>[cite: 5]</p>
+        </div>
     </section>
+
     <footer>
-        <p>&copy; 2024 Zain A. Mubashir. All rights reserved.</p>
+        <p>&copy; 2026 Zain Mubashir. SYSTEM TERMINATED.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
-
-
-</html>
-
